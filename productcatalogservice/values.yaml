@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/microservices-demo/productcatalogservice
-  tag: v0.1.2
+  repository: peishu/productcatalogservice
+  tag: v0.1.1
   pullPolicy: IfNotPresent
 
 nameOverride: ""
