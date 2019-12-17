@@ -1,18 +1,14 @@
 replicaCount: 1
-
 image:
   repository: peishu/productcatalogservice
-  tag: v0.1.1
+  tag: 0902c8b928e48fab8e28140bd688749244aefa56
   pullPolicy: IfNotPresent
-
 nameOverride: ""
 fullnameOverride: ""
-
 service:
   type: ClusterIP
   port: 3550
-
-resources: 
+resources:
   requests:
     cpu: 100m
     memory: 64Mi
